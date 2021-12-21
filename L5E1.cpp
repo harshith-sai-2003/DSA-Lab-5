@@ -121,8 +121,8 @@ int main(){
         switch(x){
             case 1:cout<<"Enter the value: "; cin>>ele; ins_beg(head,ele); break;
             case 2:cout<<"Enter the value: ";cin>>ele; ins_end(head,ele); break;
-            case 3:cout<<"Enter the element to be added and the element before which it should ne added: "; cin>>ele>>elem; insert_before(head,elem,ele); break;
-            case 4:cout<<"Enter the element to be added and the element after which it should ne added: "; cin>>ele>>elem; insert_after(head,elem,ele); break;
+            case 3:cout<<"Enter the element to be added and the element before which it should ne added: "; cin>>elem>>ele; insert_before(head,elem,ele); break;
+            case 4:cout<<"Enter the element to be added and the element after which it should ne added: "; cin>>elem>>ele; insert_after(head,elem,ele); break;
             case 5:cout<<"Enter the element to be deleted: "; cin>>ele; del(head, ele); break;
             case 6:disp(head); break;
             case 7:exit(0);
